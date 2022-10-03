@@ -1,5 +1,5 @@
-import { createLinkedListNode } from "./data-structures/linked-list";
-import { mergeTwoLists } from "./21";
+import { createLinkedListNode } from "./utils/linked-list";
+import { mergeTwoLists } from "./21-merge-two-sorted-lists";
 
 const testCases = [
   [
@@ -12,6 +12,13 @@ const testCases = [
     [0, 3, 5],
     [0, 3, 5, 6, 6, 9],
   ],
+  [[], [0, 3, 5], [0, 3, 5]],
+  [[1, 2], [], [1, 2]],
+  [[], [], []],
+  [[1], [1], [1, 1]],
+  [null, [1], [1]],
+  [[1], null, [1]],
+  [null, null, null],
 ];
 
 describe("mergeTwoLists", () => {
