@@ -2,7 +2,7 @@ import { createLinkedListNode } from "./utils/linked-list";
 import {
   mergeTwoLists,
   mergeTwoListsRecursive,
-} from "./21-merge-two-sorted-lists";
+} from "./0021-merge-two-sorted-lists";
 
 const testCases = [
   [
